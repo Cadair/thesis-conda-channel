@@ -55,6 +55,6 @@
 - name: matplotlib
   version: '1.5.1'
   numpy_compiled_extensions: true
-  numpy_build_restrictions: '=1.9*'
+  numpy_build_restrictions: '1.9*'
 
 
