@@ -43,20 +43,16 @@
 
 - name: pysac
   version: '0.3'
-  python: '=2.7'
 
 - name: texfigure
   version: '0.1'
-  python: '=2.7'
 
 - name: colormath
   version: '2.1.1'
-  python: '=2.7'
 
 - name: matplotlib
   version: '1.5.1'
   numpy_compiled_extensions: true
   numpy_build_restrictions: '=1.9*'
-  python: '=2.7'
 
 

@@ -8,7 +8,7 @@ os:
 
 env:
     global:
-        - DESTINATION_CONDA_CHANNEL="openastronomy"
+        - DESTINATION_CONDA_CHANNEL="cadair"
         - TARGET_ARCH="x64"
         - CONDA_INSTALL_LOCN="${HOME}/miniconda"
 
@@ -18,7 +18,7 @@ env:
         # The python build restriction MUST be set at the moment, though it
         # can have any value. The setting below avoids known-bad builds on
         # python 2.6 and 3.3 for some packages.
-        - PYTHON_BUILD_RESTRICTIONS="2.7*|>=3.4"
+        - PYTHON_BUILD_RESTRICTIONS="2.7*"
 
 # Matrix is fully specified (for now) by os versions
 
