@@ -43,9 +43,11 @@
 
 - name: pysac
   version: '0.3'
+  setup_options: '--offline'
 
 - name: texfigure
   version: '0.1'
+  setup_options: '--offline'
 
 - name: colormath
   version: '2.1.1'
